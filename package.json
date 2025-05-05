@@ -1,0 +1,41 @@
+{
+  "name": "react-drag",
+  "version": "0.0.1",
+  "description": "A react hook for dragging!",
+  "main": "index.js",
+  "files": [
+    "src/**/*"
+  ],
+  "repository": {
+    "url": "git@github.com:varunb10n/react-drag.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/varunb10n/react-drag/issues"
+  },
+  "directories": {
+    "src": "src"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Varun Bhuvanendran",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.8",
+    "@types/react": "^19.1.2"
+  },
+  "release": {
+    "branches": [
+      "master"
+    ]
+  }
+}
